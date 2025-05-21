@@ -4,6 +4,7 @@ author:
   - name: "Denise Lima e Silva"
     affiliation: "University of Coimbra"
     email: "limadenisearch21@gmail.com"
+    orcid: 0000-0002-1590-1587
   - name: "Miguel Carrero-Pazos"
     orcid: 0000-0001-9203-9954
     affiliation: "University of Santiago de Compostela / CISPAC"
@@ -833,7 +834,7 @@ Ultimately, our research helps reinforcing the idea that while environmental fac
 
 ## **7. Reproducibility statement**
 
-The research contained in this paper was carried out comprising current standards for open access and reproducible frameworks in archaeology, by using a scripting statistical language such as R Statistics and sharing the research data and results in collaborative ways. The data and scripts are available under a Zenodo repository (link), and Github for collaborative work (link). R scripts are released under MIT license and archaeological and data results are shared under CC-BY4.0.
+The research contained in this paper was carried out comprising current standards for open access and reproducible frameworks in archaeology, by using a scripting statistical language such as R Statistics and sharing the research data and results in collaborative ways. The data and scripts are available under a Zenodo repository (<https://zenodo.org/records/15480087>), and Github for collaborative work (<https://github.com/MCarreroPazos/MegalithsLaboreiro>). R scripts are released under MIT license and archaeological and data results are shared under CC-BY4.0
 
 R Statistics package citation is done using the [grateful package](https://pakillo.github.io/grateful/index.html), with a summary file included in the root directory of the project (see Github page).
 

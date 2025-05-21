@@ -780,18 +780,18 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </details>
 <div class="cell-output cell-output-stdout">
 <pre><code>                  covariate     Lower CI       Median     Upper CI
-statistic               dem 6.510141e+05 1.212201e+06 1.212201e+06
-p.value                 dem 0.000000e+00 0.000000e+00 4.770540e-01
-statistic1            slope 6.189264e+05 7.963545e+05 9.094863e+05
-p.value1              slope 2.259265e-52 2.304551e-26 4.335256e-01
-statistic2     cum_viewshed 6.432256e+05 1.212201e+06 1.212201e+06
-p.value2       cum_viewshed 0.000000e+00 0.000000e+00 6.725096e-01
-statistic3   dist_to_ridges 6.600761e+05 1.207824e+06 1.209092e+06
-p.value3     dist_to_ridges 0.000000e+00 0.000000e+00 2.402743e-01
-statistic4 dist_to_watedges 6.515100e+05 1.210448e+06 1.210751e+06
-p.value4   dist_to_watedges 0.000000e+00 0.000000e+00 4.600634e-01
-statistic5              tpi 3.370757e+05 5.444280e+05 6.193910e+05
-p.value5                tpi 1.950824e-01 7.924516e-01 1.000000e+00</code></pre>
+statistic               dem 6.618283e+05 1.212201e+06 1.212201e+06
+p.value                 dem 0.000000e+00 0.000000e+00 2.112362e-01
+statistic1            slope 6.315913e+05 7.916150e+05 8.827785e+05
+p.value1              slope 2.892370e-55 1.096042e-21 1.288998e-01
+statistic2     cum_viewshed 6.333180e+05 1.212201e+06 1.212201e+06
+p.value2       cum_viewshed 0.000000e+00 0.000000e+00 8.388789e-01
+statistic3   dist_to_ridges 6.503479e+05 1.207892e+06 1.209204e+06
+p.value3     dist_to_ridges 0.000000e+00 0.000000e+00 4.852560e-01
+statistic4 dist_to_watedges 6.585931e+05 1.210482e+06 1.210758e+06
+p.value4   dist_to_watedges 0.000000e+00 0.000000e+00 2.790192e-01
+statistic5              tpi 3.148769e+05 5.473035e+05 6.120632e+05
+p.value5                tpi 3.460408e-01 7.964273e-01 1.000000e+00</code></pre>
 </div>
 </div>
 <p>The Mann-Whitney test, commonly referred to as Wilcoxon rank-sum test, is a non-parametric test used to observe and compare two independent groups, assessing if there is or not a statistically significant difference between the distribution of a variable in said independent groups. In this case, this translates to whether there is a statistically significant difference between the points distribution – the tumular structures – and the geomorphological constraints that were modelled, tested against a set of randomly generated points alongside the study area via 999 Monte Carlo simulations (Conolly &amp; Lake, 2006: 127; Kvamme, 2020: 218; Günther, et al.&nbsp;2022; Bocinsky, 2017).</p>
@@ -951,17 +951,17 @@ p.value5                tpi 1.950824e-01 7.924516e-01 1.000000e+00</code></pre>
 </details>
 </div>
 <div class="cell-output cell-output-stdout">
-<pre><code>Start:  AIC=4017.22
+<pre><code>Start:  AIC=4018.92
 ~elev_im + horizon_im + geomorph_im + slope_im
 
               Df    AIC
-- geomorph_im  1 4010.0
-&lt;none&gt;           4017.2
-- slope_im     1 4018.8
-- horizon_im   1 4020.0
-- elev_im      1 4068.9
+- geomorph_im  1 4014.2
+- horizon_im   1 4018.8
+&lt;none&gt;           4018.9
+- slope_im     1 4022.9
+- elev_im      1 4070.5
 
-Step:  AIC=4019.07
+Step:  AIC=4020.89
 ~elev_im + horizon_im + slope_im</code></pre>
 </div>
 <details class="code-fold">
@@ -1078,7 +1078,7 @@ Step:  AIC=4019.07
 </section>
 <section id="reproducibility-statement" class="level2">
 <h2 class="anchored" data-anchor-id="reproducibility-statement"><strong>7. Reproducibility statement</strong></h2>
-<p>The research contained in this paper was carried out comprising current standards for open access and reproducible frameworks in archaeology, by using a scripting statistical language such as R Statistics and sharing the research data and results in collaborative ways. The data and scripts are available under a Zenodo repository (link), and Github for collaborative work (link). R scripts are released under MIT license and archaeological and data results are shared under CC-BY4.0.</p>
+<p>The research contained in this paper was carried out comprising current standards for open access and reproducible frameworks in archaeology, by using a scripting statistical language such as R Statistics and sharing the research data and results in collaborative ways. The data and scripts are available under a Zenodo repository (<a href="https://zenodo.org/records/15480087" class="uri">https://zenodo.org/records/15480087</a>), and Github for collaborative work (<a href="https://github.com/MCarreroPazos/MegalithsLaboreiro" class="uri">https://github.com/MCarreroPazos/MegalithsLaboreiro</a>). R scripts are released under MIT license and archaeological and data results are shared under CC-BY4.0</p>
 <p>R Statistics package citation is done using the <a href="https://pakillo.github.io/grateful/index.html">grateful package</a>, with a summary file included in the root directory of the project (see Github page).</p>
 <div class="cell">
 <div class="cell-output-display">
@@ -2657,7 +2657,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 <span id="cb11-833"><a href="#cb11-833" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb11-834"><a href="#cb11-834" aria-hidden="true" tabindex="-1"></a><span class="fu">## **7. Reproducibility statement**</span></span>
 <span id="cb11-835"><a href="#cb11-835" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb11-836"><a href="#cb11-836" aria-hidden="true" tabindex="-1"></a>The research contained in this paper was carried out comprising current standards for open access and reproducible frameworks in archaeology, by using a scripting statistical language such as R Statistics and sharing the research data and results in collaborative ways. The data and scripts are available under a Zenodo repository (link), and Github for collaborative work (link). R scripts are released under MIT license and archaeological and data results are shared under CC-BY4.0.</span>
+<span id="cb11-836"><a href="#cb11-836" aria-hidden="true" tabindex="-1"></a>The research contained in this paper was carried out comprising current standards for open access and reproducible frameworks in archaeology, by using a scripting statistical language such as R Statistics and sharing the research data and results in collaborative ways. The data and scripts are available under a Zenodo repository (<span class="ot">&lt;https://zenodo.org/records/15480087&gt;</span>), and Github for collaborative work (<span class="ot">&lt;https://github.com/MCarreroPazos/MegalithsLaboreiro&gt;</span>). R scripts are released under MIT license and archaeological and data results are shared under CC-BY4.0</span>
 <span id="cb11-837"><a href="#cb11-837" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb11-838"><a href="#cb11-838" aria-hidden="true" tabindex="-1"></a>R Statistics package citation is done using the <span class="co">[</span><span class="ot">grateful package</span><span class="co">](https://pakillo.github.io/grateful/index.html)</span>, with a summary file included in the root directory of the project (see Github page).</span>
 <span id="cb11-839"><a href="#cb11-839" aria-hidden="true" tabindex="-1"></a></span>
