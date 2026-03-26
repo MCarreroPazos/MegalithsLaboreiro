@@ -1,0 +1,28 @@
+/* Center the document title */
+h1.title {
+  text-align: center;
+}
+
+/* Justify the document text */
+body {
+  text-align: justify;
+  line-height: 1.7; /* Improve readability */
+}
+
+/* Ensure the Table of Contents (ToC) is left-aligned and normal weight */
+div.toc-content, nav#TOC, .quarto-sidebar nav {
+  text-align: left !important;
+  font-size: 0.85em !important; /* Adjust size as needed */
+  font-weight: normal !important; /* Removes bold */
+}
+
+/* Expand text width on the webpage */
+.quarto-container {
+  max-width: 95% !important; /* Increase width of content */
+}
+
+.quarto-content {
+  max-width: 85%; /* Expands text area */
+  margin-left: auto;
+  margin-right: auto;
+}

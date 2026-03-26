@@ -1,0 +1,65 @@
+Package: Laboreiro
+Title: Spatial Insights of the Tumular Phenomenon in Serra do Laboreiro Region (NW Iberian Peninsula)
+Version: 1.0.0
+Date: 2026-03-25
+Authors@R: c(
+    person("Denise", "Lima e Silva",
+           email = "limadenisearch21@gmail.com",
+           role = c("aut"),
+           comment = c(affiliation = "University of Coimbra")),
+    person("Miguel", "Carrero-Pazos",
+           email = "miguel.carrero@usc.es",
+           role = c("aut", "cre"),
+           comment = c(ORCID = "0000-0001-9203-9954",
+                       affiliation = "University of Santiago de Compostela / CISPAC")),
+    person("Francisco", "Lara-Pinera",
+           email = "flara@geo.uned.es",
+           role = "aut",
+           comment = c(affiliation = "National University of Distance Education")),
+    person("Joao", "Fonte",
+           email = "jfonte@fcsh.unl.pt",
+           role = "aut",
+           comment = c(ORCID = "0000-0003-0367-0598",
+                       affiliation = "NOVA University Lisbon")),
+    person("Benito", "Vilas-Estevez",
+           email = "vilasbenito@gmail.com",
+           role = "aut",
+           comment = c(affiliation = "Arbore Arqueoloxia"))
+    )
+Description: Repository for the paper "Spatial insights of the tumular
+    phenomenon in Serra do Laboreiro region (NW Iberian Peninsula)". Contains
+    all data, R scripts and analysis required to reproduce the results and
+    figures published in the associated article.
+License: CC BY-NC 4.0 + file LICENSE-data
+Encoding: UTF-8
+LazyData: true
+Depends:
+    R (>= 4.3.0)
+Imports:
+    here,
+    sf,
+    terra,
+    spatstat,
+    spatstat.geom,
+    raster,
+    sp,
+    rnaturalearth,
+    rnaturalearthdata,
+    magick,
+    viridis,
+    foreach,
+    dplyr,
+    purrr,
+    reshape2,
+    broom,
+    magrittr,
+    progress,
+    data.table,
+    grateful
+Suggests:
+    renv,
+    knitr,
+    rmarkdown,
+    quarto
+URL: https://github.com/MCarreroPazos/Laboreiro
+BugReports: https://github.com/MCarreroPazos/Laboreiro/issues

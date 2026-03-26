@@ -1,0 +1,64 @@
+cff-version: 1.2.0
+message: "If you use this software or data, please cite it as below."
+type: software
+title: "Research compendium: Spatial insights of the tumular phenomenon in Serra do Laboreiro region (NW Iberian Peninsula)"
+version: 1.0.0
+date-released: "2025-XX-XX"
+doi: "10.5281/zenodo.15480087"
+repository-code: "https://github.com/MCarreroPazos/MegalithsLaboreiro"
+url: "https://github.com/MCarreroPazos/MegalithsLaboreiro"
+license: CC-BY-NC-4.0
+abstract: >
+  Research compendium containing all data, R scripts, and analysis for the study
+  of the spatial distribution of tumular and megalithic monuments in the Serra do
+  Laboreiro region (NW Iberian Peninsula), using landscape archaeology and spatial
+  statistics.
+keywords:
+  - landscape archaeology
+  - spatial statistics
+  - megalithic monuments
+  - GIS
+  - R
+  - point process models
+  - NW Iberian Peninsula
+authors:
+  - family-names: "Lima e Silva"
+    given-names: "Denise"
+    email: "denise.lima@incipit.csic.es"
+    orcid: "https://orcid.org/0000-0002-1590-1587"
+    affiliation: "Faculty of Letters, University of Coimbra / INCIPIT-CSIC"
+  - family-names: "Carrero-Pazos"
+    given-names: "Miguel"
+    email: "miguel.carrero@usc.es"
+    orcid: "https://orcid.org/0000-0001-9203-9954"
+    affiliation: "University of Santiago de Compostela / CISPAC"
+  - family-names: "Lara-Piñera"
+    given-names: "Francisco"
+    email: "flara@geo.uned.es"
+    affiliation: "University of Oviedo"
+  - family-names: "Fonte"
+    given-names: "João"
+    email: "joaofonte@era-arqueologia.pt"
+    orcid: "https://orcid.org/0000-0003-0367-0598"
+    affiliation: "ERA Arqueologia"
+  - family-names: "Vilas-Estévez"
+    given-names: "Benito"
+    email: "arborearqueoloxia@gmail.com"
+    affiliation: "Árbore Arqueoloxía"
+references:
+  - type: article
+    title: "Spatial insights of the tumular phenomenon in Serra do Laboreiro region (NW Iberian Peninsula)"
+    authors:
+      - family-names: "Lima e Silva"
+        given-names: "Denise"
+      - family-names: "Carrero-Pazos"
+        given-names: "Miguel"
+      - family-names: "Lara-Piñera"
+        given-names: "Francisco"
+      - family-names: "Fonte"
+        given-names: "João"
+      - family-names: "Vilas-Estévez"
+        given-names: "Benito"
+    journal: "Journal of Archaeological Science: Reports"
+    year: 2025
+    doi: "10.5281/zenodo.15480087"

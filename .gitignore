@@ -1,0 +1,22 @@
+# .gitignore
+# --- R session artefacts (personal, non-reproducible) ---
+.RData
+.Rhistory
+.Rproj.user/
+# --- renv local library (large, not needed in git) ---
+renv/library/
+renv/staging/
+renv/sandbox/
+# --- Large raster data files (archive on Zenodo instead) ---
+data/raw/grid/*.tif
+# --- Compiled Quarto outputs ---
+docs/quarto_project_files/
+analysis/paper/*_files/
+analysis/paper/*.html
+# --- OS artefacts ---
+**/.DS_Store
+Thumbs.db
+desktop.ini
+# --- Temp / scratch ---
+*.tmp
+*.log
