@@ -1,15 +1,15 @@
 cff-version: 1.2.0
 message: "If you use this software or data, please cite it as below."
 type: software
-title: "Research compendium: Spatial insights of the tumular phenomenon in Serra do Laboreiro region (NW Iberian Peninsula)"
+title: "Code and data for the paper Spatial insights of the tumular phenomenon in Serra do Laboreiro region (NW Iberian Peninsula)"
 version: 1.0.0
-date-released: "2025-XX-XX"
-doi: "10.5281/zenodo.15480087"
+date-released: "2025-03-26"
+doi: "10.5281/zenodo.19239670"
 repository-code: "https://github.com/MCarreroPazos/MegalithsLaboreiro"
 url: "https://github.com/MCarreroPazos/MegalithsLaboreiro"
 license: CC-BY-NC-4.0
 abstract: >
-  Research compendium containing all data, R scripts, and analysis for the study
+  Code and data compendium containing all data, R scripts, and analysis for the study
   of the spatial distribution of tumular and megalithic monuments in the Serra do
   Laboreiro region (NW Iberian Peninsula), using landscape archaeology and spatial
   statistics.
@@ -60,5 +60,5 @@ references:
       - family-names: "Vilas-Estévez"
         given-names: "Benito"
     journal: "Journal of Archaeological Science: Reports"
-    year: 2025
-    doi: "10.5281/zenodo.15480087"
+    year: 2026
+    doi: "10.5281/zenodo.19239670"
