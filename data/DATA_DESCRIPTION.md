@@ -1,15 +1,14 @@
 # Data Description
 
 This document describes all raw input datasets in `data/raw/` and derived outputs
-in `data/derived/`. Together with the methods section of the paper, this codebook
-provides the information needed to understand, reuse, and properly cite the data.
+in `data/derived/`. Together with the methods section of the paper, this provides 
+the information needed to understand, reuse, and properly cite the data.
 
 ---
 
 ## Vector Data (`data/raw/shp/`)
 
 ### `sites_lab.shp` / `sites_lab.gpkg`
-
 Point layer of megalithic and tumular monuments used in the analyses.
 
 | Field | Type | Description |
@@ -24,36 +23,27 @@ Point layer of megalithic and tumular monuments used in the analyses.
 - **Notes:** 91 points were excluded from the original database of 269 (46 duplicates; 45 with dubious remote identification)
 
 ### `sites_all.shp`
-
 All registered monuments in the study region prior to ground-truthing (n = 269).
-
 - **CRS:** EPSG:25829
 - **Source:** Compiled from existing databases and field surveys
 
 ### `mask.shp`
-
 Polygon defining the study area boundary used as the analysis window in spatial statistics.
-
 - **CRS:** EPSG:25829
-- **Source:** Manually delineated to encompass the Serra do Laboreiro region
 
 ### `intervisibility_sites.shp`
-
 Line layer representing intervisibility connections between monuments, computed with
 the Visibility Analysis plugin in QGIS 3.28 (Čučković 2016).
-
 - **CRS:** EPSG:25829
 - **Used in:** Figure 5
 
 ### `sites.gpkg`
-
 GeoPackage version of `sites_lab` in EPSG:25829, used as the primary vector format
 for reproducibility.
 
 ---
 
 ## Raster Data (`data/raw/grid/`)
-
 All rasters share the following properties unless noted:
 - **Resolution:** 1 m
 - **CRS:** EPSG:25829 (UTM zone 29N, ETRS89)
@@ -74,9 +64,7 @@ All rasters share the following properties unless noted:
 ---
 
 ## Derived Data (`data/derived/`)
-
-CSV tables produced by the analysis scripts. All files are UTF-8 encoded with
-comma separators.
+CSV tables produced by the analysis scripts. All files are UTF-8 encoded with comma separators.
 
 | File | Description | Produced by |
 |------|-------------|-------------|
@@ -91,7 +79,6 @@ comma separators.
 | `Wilcoxon_results.csv` | Wilcoxon test summary from Figure 4 pipeline (8 covariates) | `Figure 4.R` |
 
 ### Column definitions for Mann-Whitney result tables
-
 | Column | Description |
 |--------|-------------|
 | `Lower CI` | 2.5th percentile of the test statistic / p-value across 999 simulations |
@@ -99,7 +86,6 @@ comma separators.
 | `Upper CI` | 97.5th percentile |
 
 ### Column definitions for `Final_Landscape_Comparison.csv`
-
 | Column | Description |
 |--------|-------------|
 | `Variable` | Internal variable name |
@@ -112,7 +98,6 @@ comma separators.
 ---
 
 ## References
-
 Canedo, D. et al. (2023). Uncovering Archaeological Sites in Airborne LiDAR Data
 With Data-Centric Artificial Intelligence. *IEEE Access*, 11, 65608–65619.
 
