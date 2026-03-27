@@ -2,7 +2,7 @@
 
 [![License: MIT](https://img.shields.io/badge/Code%20License-MIT-yellow.svg)](LICENSE)
 [![License: CC BY-NC 4.0](https://img.shields.io/badge/Data%20License-CC%20BY--NC%204.0-lightgrey.svg)](LICENSE-data)
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.15480087.svg)](https://doi.org/10.5281/zenodo.15480087)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.15480087.svg)](https://zenodo.org/records/19239670)
 
 ## About
 This repository contains the code and data for the paper:
