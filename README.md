@@ -7,7 +7,7 @@
 ## About
 This repository contains the code and data for the paper:
 > Lima e Silva, D., Carrero-Pazos, M., Lara-Piñera, F., Fonte, J. & Vilas-Estévez, B.
-> (2025). "Spatial insights of the tumular phenomenon in Serra do Laboreiro region
+> (2026). "Spatial insights of the tumular phenomenon in Serra do Laboreiro region
 > (NW Iberian Peninsula)". *Journal of Archaeological Science Reports*.
 
 ## Abstract
@@ -60,7 +60,7 @@ Laboreiro/
 
 ---
 > **Note:** The large raster files in `data/raw/grid/` are archived separately on
-> Zenodo (see DOI badge above) due to file size. Download them from Zenodo and place
+> Zenodo (see DOI badge above). Download them from Zenodo and place
 > them in `data/raw/grid/` before running the analysis.
 
 > **Note:** AI Statement: Large Language Models (LLMs) have been used for coding, polishing, and scientific writing assistance. The authors are responsible for the content and accuracy of the analysis and findings reported in this manuscript.
@@ -68,8 +68,7 @@ Laboreiro/
 
 ## Data Description
 See [`data/DATA_DESCRIPTION.md`](data/DATA_DESCRIPTION.md) for a full description of
-all input datasets, including coordinate reference systems, variable definitions, and
-original data sources.
+all datasets, including variable definitions, and original data sources.
 
 ---
 
@@ -82,7 +81,7 @@ original data sources.
 ## Citation
 If you use any part of this repository, please cite:
 > Lima e Silva, D., Carrero-Pazos, M., Lara-Piñera, F., Fonte, J. & Vilas-Estévez, B.
-> (2025). "Spatial insights of the tumular phenomenon in Serra do Laboreiro region
+> (2026). "Spatial insights of the tumular phenomenon in Serra do Laboreiro region
 > (NW Iberian Peninsula)". *Journal of Archaeological Science: Reports*.
 
 A machine-readable citation is available in [`CITATION.cff`](CITATION.cff).
@@ -90,7 +89,7 @@ A machine-readable citation is available in [`CITATION.cff`](CITATION.cff).
 ---
 
 ## Acknowledgements
-Denise Lima e Silva is funded by FCT Foundation for Science and Technology (FCT scholarship nº. 2020.04713.BD). This work was done under the European Union’s Horizon 2020 research and innovation programme (Marie Skłodowska-Curie Grant Agreements No. 886793, PI: MCP; and No. 794048 PI: JF) and *Paisajes Megalíticos: Explorando los factores humanos y ambientales de las sociedades neolíticas en el noroeste de la Península Ibérica (V-II milenio a.C.)* (MegaLands), PID2024-156264NA-I00 funded by MICIU /AEI /10.13039/501100011033/ FEDER, UE (IP: Miguel Carrero Pazos and Noemí Silva Sánchez). The authors want to thank the Comunidade Intermunicipal do Alto Minho (CIM Alto Minho) for providing the LiDAR data used in this work.
+Denise Lima e Silva is funded by FCT Foundation for Science and Technology (FCT scholarship nº. 2020.04713.BD). This work was done under the European Union’s Horizon 2020 research and innovation programme (Marie Skłodowska-Curie Grant Agreements No. 886793, PI: MCP; and No. 794048 PI: JF) and is part of the project *Paisajes Megalíticos: Explorando los factores humanos y ambientales de las sociedades neolíticas en el noroeste de la Península Ibérica (V-II milenio a.C.)* (MegaLands), PID2024-156264NA-I00 funded by MICIU /AEI /10.13039/501100011033/ FEDER, UE (IP: Miguel Carrero Pazos and Noemí Silva Sánchez). The authors want to thank the Comunidade Intermunicipal do Alto Minho (CIM Alto Minho) for providing the LiDAR data used in this work.
 
 R package citations are managed with the
 [`grateful`](https://pakillo.github.io/grateful/) package; see
