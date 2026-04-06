@@ -63,7 +63,7 @@ Laboreiro/
 > Zenodo (see DOI badge above). Download them from Zenodo and place
 > them in `data/raw/grid/` before running the analysis.
 
-> **Note:** AI Statement: Large Language Models (LLMs) have been used for coding, polishing, and language revision assistance. The authors are responsible for the content and accuracy of the analysis and findings reported in this manuscript.
+> **Note:** AI Statement: Large Language Models (LLMs) were used for code assistance, text polishing, and language revision. The authors are responsible for the content and accuracy of the analysis and findings reported in this manuscript.
 ---
 
 ## Data Description
